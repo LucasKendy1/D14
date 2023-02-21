@@ -1,0 +1,54 @@
+:root{
+    --cor0:#42168d;
+    --cor1:#390099;
+    --cor2:#FF5400;
+    --cor3:#FFBD00;
+    --cor4:#9E0059;
+    --cor5:#FF0054;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(90deg, #390099, #42168d);
+    
+}
+@font-face {
+    font-family: balao;
+    src: url('fontes/ffx-balloon-engraved.ttf');
+}
+h1{
+    color: white;
+    font-family: balao;
+    font-size: 18vw;
+    font-weight: 100;
+    margin-left: 20px;
+}
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5vw;
+    font-weight: 100;
+    margin-left: 20vw;
+}
+div.parlx{
+    position: absolute;
+    background-image: url('fotos/hide.png');
+    background-position: center center;
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    bottom: 0px;
+}
+section{
+    position: absolute;
+    background-color: white;
+    width: 50%;
+    height: 70vw;
+    right: 0;
+    top: 0;
+    
+}

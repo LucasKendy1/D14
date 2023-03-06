@@ -13,7 +13,6 @@
 body,html{
     width: 100%;
     height: 100%;
-    
 }
 @font-face {
     font-family: balao;
@@ -75,6 +74,7 @@ header{
     height: 200px;
     background-image: linear-gradient(90deg, #390099, #42168d);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.26);
+    
 }
 main{
     margin: auto;
@@ -112,3 +112,40 @@ div#iparalaxe>p{
     color: white;
     font-weight: 700;
 }
+td{
+    padding: 0px;
+    border-left: 1px solid black;
+    padding-left: 10px;
+    
+}
+td.semana{
+    border-left: none;
+}
+header>span#hamburguer{
+    color: white;
+    position: absolute;
+    font-size: 2.5em;
+    top: 85px;
+    left: 30px;
+}
+header>span#user{
+    color: white;
+    position: absolute;
+    font-size: 2.5em;
+    top: 85px;
+    right: 30px;
+}
+div.aba{
+    position: absolute;
+    display: none;
+    width: 300px;
+    height: fit-content;
+    background-color: rgb(202, 205, 207);
+    color: black;
+    font-size: 1.5em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    animation-duration: .5s;
+    animation-name: abre;
+}
+
+

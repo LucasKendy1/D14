@@ -10,11 +10,27 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="shortcut icon" href="fotos/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     
     <header>
+        <span class="material-symbols-outlined" id="hamburguer">
+            menu
+        </span>
         <h1>HIDE</h1>
+        <span class="material-symbols-outlined" id="user">
+            account_circle
+        </span>
+        <div class="aba" id="iaba">
+            Nossas redes sociais:
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+        </div>
     </header>
     <div id="iparalaxe">
         <h2>O que vendemos?</h2>
@@ -44,31 +60,31 @@
         </label>
         <table id="itabela">
             <tr>
-                <td>Segunda</td>
+                <td class="semana">Segunda</td>
                 <td>7:30 - 18:00</td>
             </tr>
             <tr>
-                <td>Terça</td>
+                <td class="semana">Terça</td>
                 <td>7:30 - 18:00</td>
             </tr>
             <tr>
-                <td>Quarta</td>
+                <td class="semana">Quarta</td>
                 <td>7:30 - 18:00</td>
             </tr>
             <tr>
-                <td>Quinta</td>
+                <td class="semana">Quinta</td>
                 <td>7:30 - 18:00</td>
             </tr>
             <tr>
-                <td>Sexta</td>
+                <td class="semana">Sexta</td>
                 <td>7:30 - 18:00</td>
             </tr>
             <tr>
-                <td>Sabado</td>
+                <td class="semana">Sabado</td>
                 <td>7:30 - 18:00</td>
             </tr>
             <tr>
-                <td>Domingo</td>
+                <td class="semana">Domingo</td>
                 <td>8:00 - 12:00</td>
             </tr>
         </table>
@@ -80,5 +96,19 @@
         <h4>Site feito por Lucas Kendy</h4>
     </footer>
    
+    <script>
+        let hamburguer=document.getElementById('hamburguer')
+        hamburguer.addEventListener('click',abreaba)
+        let aba=document.getElementById('iaba')
+        function abreaba(){
+            if(aba.style.display=='block'){
+                aba.style.display='none'
+            }
+            else{
+                aba.style.display='block'
+            }
+            
+        }
+    </script>
 </body>
 </html>
